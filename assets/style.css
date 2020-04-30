@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #3483FA;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cor-fundo-esquerda-verde{
+    position: fixed;
+    width: 50vw;
+    height: 100%;
+    z-index: 0;
+    background-color: #42A174;
+}
+
+.centralizar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.centralizar-item{
+    text-align: center;
+    left:50%;
+    top:50%;
+    margin-left:-35vw; /* Metade do valor da Largura */
+    margin-top:-180px; /* Metade da valor da Altura */
+    position:absolute;
+    width:70vw; /* Valor da Largura */
+    height:360px; /* Valor da Altura */
+    overflow: hidden;
+    color:#fff;
+}
+
+.Logotipo_FlicoVarejos{
+    font-size: 24px;
+    font-family: 'Proxima Nova', sans-serif !important;
+    font-weight: 100!important;
+}
+
+.mesma-linha h1,
+.mesma-linha img{
+    margin-right: 30px;
+    line-height: 1.5;
+    vertical-align: middle;
+}
+.mesma-linha h1{
+    display: inline-block;
+}
+
+/* Tela de Mobile */
+@media (max-width:767px) {
+    .remove-mobile, [remove-mobile] {
+        display: none!important;
+    }
+}
+
+/* Tela de PC */
+@media (min-width:768px) {
+    .remove-pc, [remove-pc] {
+        display: none!important;
+    }
+}
